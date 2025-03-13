@@ -1,0 +1,19 @@
+
+/* .app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;  
+} */
+
+.content {
+  width: calc(100% - 250px);
+  max-height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  transition: margin-left 0.3s, width 0.3s;
+}
+
+.content.collapsed {
+  width: calc(100% - 80px);
+}
+
